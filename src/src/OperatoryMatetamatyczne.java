@@ -1,3 +1,5 @@
+package src;
+
 //operatory matematyczne umozliwiaja wykonanie podstawowych operacji matematycznych
 public class OperatoryMatetamatyczne {
     public static void main(String[] args) {

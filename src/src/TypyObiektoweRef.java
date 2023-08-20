@@ -1,3 +1,5 @@
+package src;
+
 public class TypyObiektoweRef {
     // liczby stałoprzecinkowe
     Byte firstNumber = 127; // 1 bajt -128 do 127

@@ -1,3 +1,5 @@
+package src;
+
 public class InstrukcjaWarunkowaElseIf {
     public static void main(String[] args) {
         int number = 12;

@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 public class PierwszaPracaDomowa {
     public static void main(String[] args) {
