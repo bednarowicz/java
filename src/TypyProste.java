@@ -1,7 +1,4 @@
-package src;
-
-public class TypyProsteRef {
-
+public class TypyProste {
     // liczby stałoprzecinkowe
     byte firstNumber = 127; // 1 bajt -128 do 127
     short secondNumber = 32689; // 2 bajty -32768 do 32767

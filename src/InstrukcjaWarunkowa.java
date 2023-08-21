@@ -1,5 +1,3 @@
-package src;
-
 public class InstrukcjaWarunkowa {
     public static void main(String[] args) {
         float dzielna = 10.0F;

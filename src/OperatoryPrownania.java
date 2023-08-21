@@ -1,5 +1,3 @@
-package src;
-
 public class OperatoryPrownania {
     public static void main(String[] args) {
         int firstNumber = 4;

@@ -1,5 +1,3 @@
-package src;
-
 // określone miejsce z określonym typem danych
 public class Zmienna {
 

@@ -1,5 +1,3 @@
-package src;
-
 public class OperatoryLogiczne {
     public static void main(String[] args) {
         boolean firstValue = 2>1;
