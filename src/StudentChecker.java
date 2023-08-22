@@ -4,6 +4,7 @@ public class StudentChecker {
         Student[] tablicaStudentow = new Student[iloscStudentow];
 
         for (int i = 0; i< iloscStudentow;  i++ ){
+            tablicaStudentow[i] = new Student();
             tablicaStudentow[i].imie = ("Imie nr " + i);
             tablicaStudentow[i].nazwisko = ("Nazwisko nr " + i);
             tablicaStudentow[i].nick = ("nick nr " + i);
