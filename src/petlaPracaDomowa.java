@@ -8,11 +8,12 @@ public class petlaPracaDomowa {
         }
         System.out.println("Przejdźmy to odwracania kolejności tablicy za pomocą pętli");
         System.out.println("Weźmy tablicę: ");
-        int[] tablica = new int[]{1,2,3};
+        int[] tablica = new int[]{1,2,3,4,5};
         for(int i = 0; i < (tablica.length/2); i++) {
             int wartoscPomocnicza = tablica[i];
-            tablica[i] = tablica[2-i];
-            tablica[2-i] = wartoscPomocnicza;
+            tablica[i] = tablica[tablica.length-i-1];
+            tablica[tablica.length-i-1] = wartoscPomocnicza;
+            System.out.println("Iteracja " + i);
         }
         for(int i = 0; i < tablica.length; i++){
             System.out.println(tablica[i]);
