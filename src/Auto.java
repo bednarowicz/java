@@ -1,4 +1,13 @@
 public class Auto {
+    public Auto(){
+
+    }
+    public Auto(String marka, String model, Integer przebieg, Integer rok){
+        this.marka = marka;
+        this.model = model;
+        this.przebieg = przebieg;
+        this.rok = rok;
+    }
     public String marka;
     public  String model;
     public Integer przebieg;

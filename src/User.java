@@ -6,10 +6,10 @@ public class User {
         System.out.println("Hello world z konstruktora");
 
     }
-    public User(String user, String pass){
+    public User(String userName, String password){
         System.out.println("Hello world z konstruktora");
-        userName = user;
-        password = pass;
+        this.userName = userName;
+        this.password = password;
 
     }
 
