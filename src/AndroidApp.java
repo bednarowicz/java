@@ -3,7 +3,7 @@ public class AndroidApp extends App{
         super(name);
         System.out.println("Konstruktor AndroidAPp");
     }
-    public void RunAndroidApp(){
+    public void runAndroidApp(){
         System.out.println("Running AndroidApp.");
     }
 }

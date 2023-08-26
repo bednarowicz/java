@@ -5,7 +5,7 @@ public class App {
         this.name = name;
         System.out.println("Konstruktor App");
     }
-    public void AppInfo(){
+    public void appInfo(){
         System.out.println("I am printing AppInfo for App: " + name);
     }
 }

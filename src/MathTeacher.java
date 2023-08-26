@@ -7,6 +7,12 @@ public class MathTeacher extends Person{
         System.out.println("Jestem w konstruktorze MathTeacher.");
     }
 
+    @Override
+    public void walk() {
+        super.walk();
+        System.out.println("I walk like a math teacher.");
+    }
+
     public void teachMath(){
         eat();
         walk();
