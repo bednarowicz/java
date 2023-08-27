@@ -1,4 +1,6 @@
-public class ChromeDriver implements WebDriver{
+package drivers;
+
+public class ChromeDriver implements WebDriver {
     @Override
     public void findElementBy() {
         System.out.println("Znajdujemy element za pomocą przeglądarki Chrome.");
